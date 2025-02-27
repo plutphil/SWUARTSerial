@@ -1,0 +1,27 @@
+{
+    "name": "SWUARTSerial",
+    "version": "1.0.0",
+    "description": "Singe Wire Half Duplex UART using two pins on arduino and esp32 ",
+    "keywords": "uart, serial, singlewire",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/plutphil/SWUARTSerial.git"
+    },
+    "authors":
+    [
+      {
+        "name": "Plutphil",
+        "email": "plutphil@gmail.com",
+        "url": "https://github.com/plutphil/",
+        "maintainer": true
+      }
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/plutphil/",
+    "dependencies": {
+        "robtillaart/CRC":"1.0.3"
+    },
+    "frameworks": "arduino",
+    "platforms": "*"
+  }
